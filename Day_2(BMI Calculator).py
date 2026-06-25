@@ -8,7 +8,7 @@ if BMI <= 18.5 :
     
     underweight = 22 - BMI
     targetweight = float(underweight) * (float(height) ** 2)        # Weight you need to gain.
-    print("You are Underweightted")
+    print("You are Underweight")
     print(" You need to gain weight " + str(targetweight) + " kg. ") 
 
 elif BMI  > 18.5 and BMI < 25 :
@@ -18,5 +18,5 @@ else:
     
     overweight = BMI - 22
     targetweight2 = float(overweight) * float(height) ** 2          # Weight you need to lose.
-    print("You are Overweightted.")
+    print("You are Overweight.")
     print("You need to lose weight " + str(targetweight2) + " kg. ")
